@@ -7,7 +7,6 @@ class Crear:
 
     def add_friend(self, new_name, new_number):
         try:
-            # Asegurarse de que new_number sea una cadena de texto
             new_number = str(new_number)
             
             if not os.path.exists(self.file_name):
